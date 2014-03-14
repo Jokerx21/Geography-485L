@@ -1,0 +1,24 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<!-- This page can be used as a template for completing your writeups for milestone and "deep dive" assignments -->
+	<!-- Replace the content placeholders with your own content -->
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Geography 485L/585L Assignment Template</title>
+	</head>
+	<body>
+	<p>
+	Amanda Garcia <br>
+	2/22/2014
+	</p>
+	<h1> Milestone2 #</h1>
+	<h2>Question 1</h2>
+	<p>  Need to answer </p>
+	<h2>Question 2</h2>
+	<p> h1 is the title of the page and h2 is the </p>
+	<h2>Question n</h2>
+	<p>answer ...</p>
+	</body>
+</html>

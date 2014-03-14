@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<!-- This page can be used as a template for completing your writeups for milestone and "deep dive" assignments -->
+	<!-- Replace the content placeholders with your own content -->
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Geography 485L/585L Assignment Template</title>
+		<style type="text/css">
+  
+  body { height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    background-color: black; 
+    color: #CCCCCC;
+    text-align: center}
+  #map_canvas { width:90%; 
+    height:300px; 
+    margin-left: 
+    auto; 
+    margin-right: auto }
+</style>
+		<script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?v=3.2&sensor=false">
+</script>
+<script type="text/javascript">
+  function initialize() {
+    var classroom = new google.maps.LatLng(35.084280,-106.624073)
+    var myOptions = {
+      zoom: 8,
+      center: classroom,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"),
+        myOptions);
+  }
+</script>
+	</head>
+	<body onload="initialize()">
+	<p>
+	Amanda Garcia <br>
+	March 5, 2014
+	</p>
+	<h1>Lab Assignment / Assignment #</h1>
+	<h2>Question 1</h2>
+	<p>I will be displaying a map of the top 5 wildfires in New Mexico</p>
+	<h2>Question 2</h2>
+	<p>answer ...</p>
+	<h2>Question 3</h2>
+	<p> I will display a map of New Mexico wildfires. Terrain and location will be the sources of this map. This will assist the viewer in what part of the state they are looking at and how much was affected 
+by the wildfire.	</p>
+	<h2>Question 4</h2>
+	<p>The scale of my map will be of the whole state of New Mexico due to the fact that wild fires have been through the whole state and this way the viewers 
+	are able to see the location as a whole as well as the areas</p>
+	<h2>Question 5</h2>
+	<div id="map_canvas"></div>
+	</body>
+</html>
